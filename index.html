@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Meu Diário de Esperança - Infográfico SOP</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    body { font-family: 'Inter', sans-serif; background-color: #f0f7f9; }
+    .recipe-card { min-height: 150px; }
+</style>
+</head>
+<body class="text-[#073B4C]">
+
+<div class="container mx-auto p-4 md:p-8">
+
+    <header class="text-center mb-12">
+        <h1 class="text-4xl md:text-5xl font-bold text-[#118AB2] mb-2">Meu Diário de Esperança</h1>
+        <p class="text-lg md:text-xl text-[#073B4C]">Um guia visual sobre como a nutrição pode ajudar no tratamento da SOP.</p>
+    </header>
+
+    <main class="space-y-12"
+        <!-- Pilares da dieta -->
+        <section class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+            <h2 class="text-2xl font-bold text-[#118AB2] mb-6 text-center">Pilares da Dieta para Fertilidade</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                <div>
+                    <div class="text-5xl mb-2">🌾</div>
+                    <h3 class="text-xl font-semibold mb-2">Fibras</h3>
+                    <p class="text-sm">Frutas, legumes, grãos integrais. Evitam picos de glicemia e promovem saciedade.</p>
+                </div>
+                <div>
+                    <div class="text-5xl mb-2">🍗</div>
+                    <h3 class="text-xl font-semibold mb-2">Proteínas Magras</h3>
+                    <p class="text-sm">Frango, peixes, ovos. Mantêm saciedade e ajudam na construção muscular.</p>
+                </div>
+                <div>
+                    <div class="text-5xl mb-2">🐟</div>
+                    <h3 class="text-xl font-semibold mb-2">Gorduras Boas</h3>
+                    <p class="text-sm">Ômega-3 de peixes, abacate e castanhas para saúde hormonal.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gerador de receitas -->
+        <section class="bg-white rounded-lg shadow-lg p-6 md:p-8">
+            <h2 class="text-2xl font-bold text-[#118AB2] mb-4 text-center">✨ Gerador de Receitas</h2>
+            <p class="text-center mb-4 text-[#073B4C]">Digite os ingredientes que você tem e veja uma receita saudável para SOP.</p>
+            <div class="flex flex-col md:flex-row items-center justify-center mb-4 space-y-4 md:space-y-0 md:space-x-4">
+                <input type="text" id="ingredients-input" placeholder="Ex: frango, brócolis, azeite" class="flex-1 w-full md:w-auto p-3 border border-[#118AB2] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#118AB2]">
+                <button id="generate-recipe-btn" class="px-6 py-3 w-full md:w-auto bg-[#06D6A0] text-white font-semibold rounded-lg shadow-md hover:bg-[#05C591] transition duration-200">
+                    Gerar Receita
+                </button>
+            </div>
+            <div id="recipe-output" class="recipe-card bg-[#F9F9F9] p-4 rounded-lg border border-gray-200 text-center flex items-center justify-center">
+                <p class="text-gray-500">Sua receita aparecerá aqui.</p>
+            </div>
+        </section>
+
+    </main>
+
+</div>
+
+<script>
+// Variável para armazenar receitas carregadas do JSON
+let recipes = [];
+
+// Carregar recipes.json local
+fetch('recipes.json')
+    .then(response => response.json())
+    .then(data => { recipes = data; })
+    .catch(error => console.error('Erro ao carregar receitas:', error));
+
+// Função para gerar receita
+const generateRecipeBtn = document.getElementById('generate-recipe-btn');
+const ingredientsInput = document.getElementById('ingredients-input');
+const recipeOutput = document.getElementById('recipe-output');
+
+generateRecipeBtn.addEventListener('click', () => {
+    const query = ingredientsInput.value.toLowerCase().trim();
+    if (!query) {
+        recipeOutput.innerHTML = `<p class="text-red-500">Por favor, insira pelo menos um ingrediente.</p>`;
+        return;
+    }
+
+    const filtered = recipes.filter(recipe => 
+        recipe.name.toLowerCase().includes(query) ||
+        recipe.ingredients.some(ing => ing.toLowerCase().includes(query))
+    );
+
+    if (filtered.length === 0) {
+        recipeOutput.innerHTML = `<p class="text-gray-500">Nenhuma receita encontrada para "${query}".</p>`;
+        return;
+    }
+
+    const recipe = filtered[0];
+
+    const ingredientsListHtml = recipe.ingredients.map(item => `<li>${item}</li>`).join('');
+    const instructionsListHtml = recipe.instructions.map(item => `<li>${item}</li>`).join('');
+
+    recipeOutput.innerHTML = `
+        <h3 class="text-xl font-bold text-[#118AB2] mb-2">${recipe.name}</h3>
+        <img src="${recipe.image}" alt="${recipe.name}" class="mx-auto mb-4 rounded-lg max-w-xs">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-left">
+            <div>
+                <h4 class="font-semibold text-lg text-[#073B4C] mb-2">Ingredientes:</h4>
+                <ul class="list-disc list-inside space-y-1">${ingredientsListHtml}</ul>
+            </div>
+            <div>
+                <h4 class="font-semibold text-lg text-[#073B4C] mb-2">Instruções:</h4>
+                <ol class="list-decimal list-inside space-y-1">${instructionsListHtml}</ol>
+            </div>
+        </div>
+    `;
+});
+</script>
+
+</body>
+</html>

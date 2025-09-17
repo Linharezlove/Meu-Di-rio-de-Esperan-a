@@ -1,0 +1,359 @@
+[
+  {
+    "name": "Mingau de Aveia com Frutas e Sementes",
+    "ingredients": ["1/2 xícara de aveia em flocos", "1 xícara de água ou leite desnatado", "Fruta picada (maçã, banana, etc.)", "1 colher de sopa de sementes de chia ou linhaça", "Mel ou adoçante a gosto (opcional)"],
+    "instructions": ["Em uma panela, misture a aveia com a água ou leite.", "Leve ao fogo baixo e cozinhe, mexendo sempre, até engrossar.", "Retire do fogo, adicione a fruta picada e as sementes.", "Adoce a gosto, se desejar."],
+    "calories": 250,
+    "image": "https://example.com/images/mingau-aveia.jpg"
+  },
+  {
+    "name": "Omelete com Legumes",
+    "ingredients": ["2 ovos", "Legumes picados (tomate, cebola, espinafre, etc.)", "Sal e pimenta a gosto"],
+    "instructions": ["Bata os ovos com sal e pimenta.", "Adicione os legumes picados e misture.", "Aqueça uma frigideira antiaderente e despeje a mistura.", "Cozinhe em fogo baixo até firmar."],
+    "calories": 180,
+    "image": "https://example.com/images/omelete-legumes.jpg"
+  },
+  {
+    "name": "Vitamina de Abacate com Banana e Aveia",
+    "ingredients": ["1/2 abacate", "1 banana", "1 xícara de leite desnatado ou vegetal", "2 colheres de sopa de aveia em flocos", "Mel ou adoçante a gosto (opcional)"],
+    "instructions": ["Bata todos os ingredientes no liquidificador até obter uma mistura homogênea.", "Sirva gelado."],
+    "calories": 300,
+    "image": "https://example.com/images/vitamina-abacate.jpg"
+  },
+  {
+    "name": "Panqueca Integral de Banana",
+    "ingredients": ["1 banana amassada", "1 ovo", "2 colheres de sopa de farinha de trigo integral", "Canela em pó a gosto"],
+    "instructions": ["Misture todos os ingredientes em uma tigela.", "Aqueça uma frigideira antiaderente e despeje pequenas porções da massa.", "Cozinhe em fogo baixo até dourar dos dois lados."],
+    "calories": 200,
+    "image": "https://example.com/images/panqueca-banana.jpg"
+  },
+  {
+    "name": "Iogurte com Granola Caseira e Frutas",
+    "ingredients": ["1 pote de iogurte natural desnatado", "2 colheres de sopa de granola caseira", "Frutas picadas a gosto (morango, mamão, etc.)"],
+    "instructions": ["Em uma tigela, coloque o iogurte, a granola e as frutas picadas.", "Sirva imediatamente."],
+    "calories": 250,
+    "image": "https://example.com/images/iogurte-granola.jpg"
+  },
+  {
+    "name": "Salada Colorida com Frango Grelhado",
+    "ingredients": ["Alface a gosto", "Tomate picado", "Cenoura ralada", "Pepino fatiado", "Peito de frango grelhado em cubos", "Azeite de oliva", "Vinagre", "Sal e pimenta a gosto"],
+    "instructions": ["Lave e pique os legumes e verduras.", "Grelhe o peito de frango e corte em cubos.", "Misture todos os ingredientes em uma tigela.", "Tempere com azeite, vinagre, sal e pimenta."],
+    "calories": 350,
+    "image": "https://example.com/images/salada-frango.jpg"
+  },
+  {
+    "name": "Feijão com Arroz Integral e Carne Magra",
+    "ingredients": ["Feijão cozido", "Arroz integral cozido", "Carne magra cozida ou assada", "Alho e cebola picados", "Sal a gosto", "Folha de louro"],
+    "instructions": ["Cozinhe o feijão com alho, cebola, sal e louro.", "Cozinhe o arroz integral.", "Prepare a carne magra da forma preferida (cozida ou assada).", "Sirva todos os ingredientes juntos."],
+    "calories": 400,
+    "image": "https://example.com/images/feijao-arroz-carne.jpg"
+  },
+  {
+    "name": "Frango Ensopado com Batata Doce e Cenoura",
+    "ingredients": ["500g de frango em pedaços", "2 batatas doces médias picadas", "2 cenouras médias picadas", "1 cebola picada", "2 dentes de alho picados", "1 tomate picado", "Azeite de oliva", "Sal e pimenta a gosto", "Cheiro-verde picado"],
+    "instructions": ["Refogue a cebola e o alho no azeite.", "Adicione o frango e refogue até dourar.", "Acrescente o tomate, batata doce, cenoura, sal, pimenta e água suficiente para cobrir.", "Cozinhe em fogo baixo até o frango e legumes estarem macios.", "Finalize com cheiro-verde picado."],
+    "calories": 380,
+    "image": "https://example.com/images/frango-ensopado.jpg"
+  },
+  {
+    "name": "Omelete de Forno com Legumes",
+    "ingredients": ["4 ovos", "1 xícara de legumes picados (abobrinha, tomate, cebola, pimentão, etc.)", "1/2 xícara de leite desnatado", "Sal, pimenta e orégano a gosto"],
+    "instructions": ["Bata os ovos com o leite, sal, pimenta e orégano.", "Adicione os legumes picados e misture.", "Despeje a mistura em uma forma untada.", "Leve ao forno pré-aquecido a 180°C por 25-30 minutos ou até dourar."],
+    "calories": 320,
+    "image": "https://example.com/images/omelete-forno.jpg"
+  },
+  {
+    "name": "Sardinha Assada com Tomate e Cebola",
+    "ingredients": ["2 latas de sardinha em óleo escorrido", "2 tomates picados", "1 cebola picada", "Azeite de oliva", "Orégano, sal e pimenta a gosto"],
+    "instructions": ["Misture tomates e cebola picados em uma assadeira.", "Tempere com azeite, orégano, sal e pimenta.", "Coloque as sardinhas sobre os legumes.", "Leve ao forno pré-aquecido a 180°C por 15-20 minutos."],
+    "calories": 350,
+    "image": "https://example.com/images/sardinha-assada.jpg"
+  },
+  {
+    "name": "Fruta com Castanhas",
+    "ingredients": ["Fruta à escolha (maçã, pera, laranja, etc.)", "Castanhas ou amendoim sem sal"],
+    "instructions": ["Lave e pique a fruta.", "Sirva com as castanhas."],
+    "calories": 150,
+    "image": "https://example.com/images/fruta-castanhas.jpg"
+  },
+  {
+    "name": "Iogurte Natural Desnatado",
+    "ingredients": ["1 pote de iogurte natural desnatado", "Frutas picadas ou granola a gosto (opcional)"],
+    "instructions": ["Sirva o iogurte em um copo ou tigela.", "Adicione frutas picadas ou granola, se desejar."],
+    "calories": 80,
+    "image": "https://example.com/images/iogurte-natural.jpg"
+  },
+  {
+    "name": "Ovo Cozido",
+    "ingredients": ["1 ovo"],
+    "instructions": ["Coloque o ovo em uma panela com água e leve ao fogo.", "Quando começar a ferver, cozinhe por 8-10 minutos.", "Retire do fogo, coloque em água fria e descasque."],
+    "calories": 70,
+    "image": "https://example.com/images/ovo-cozido.jpg"
+  },
+  {
+    "name": "Mix de Castanhas e Sementes",
+    "ingredients": ["1/4 xícara de castanhas (amêndoas, nozes, castanha de caju, etc.)", "1 colher de sopa de sementes (chia, linhaça, girassol, etc.)"],
+    "instructions": ["Misture as castanhas e as sementes em um recipiente."],
+    "calories": 200,
+    "image": "https://example.com/images/mix-castanhas-sementes.jpg"
+  },
+  {
+    "name": "Pipoca Caseira",
+    "ingredients": ["2 colheres de sopa de milho de pipoca", "1 colher de chá de azeite ou óleo vegetal", "Sal a gosto"],
+    "instructions": ["Em uma panela com tampa, coloque o azeite ou óleo e o milho de pipoca.", "Leve ao fogo médio e mexa até começar a estourar.", "Tampe a panela e espere até que todos os grãos estourem.", "Retire do fogo e tempere com sal."],
+    "calories": 150,
+    "image": "https://example.com/images/pipoca-caseira.jpg"
+  },
+  {
+    "name": "Sopa de Legumes com Frango Desfiado",
+    "ingredients": ["Legumes picados (abóbora, chuchu, cenoura, etc.)", "Frango cozido e desfiado", "Água", "Alho", "Cebola", "Sal", "Louro"],
+    "instructions": ["Em uma panela, refogue o alho e a cebola.", "Adicione os legumes picados e a água.", "Cozinhe até os legumes ficarem macios.", "Adicione o frango desfiado e cozinhe por mais alguns minutos."],
+    "calories": 280,
+    "image": "https://example.com/images/sopa-legumes-frango.jpg"
+  },
+  {
+    "name": "Omelete com Legumes",
+    "ingredients": ["Ovos", "Legumes picados (tomate, cebola, brócolis, etc.)", "Sal", "Pimenta"],
+    "instructions": ["Bata os ovos com sal e pimenta.", "Adicione os legumes picados e misture.", "Aqueça uma frigideira antiaderente e despeje a mistura.", "Cozinhe em fogo baixo até firmar."],
+    "calories": 180,
+    "image": "https://example.com/images/omelete-legumes.jpg"
+  },
+  {
+    "name": "Salada de Grão de Bico com Atum",
+    "ingredients": ["1 xícara de grão de bico cozido", "1 lata de atum em água escorrido", "1/2 cebola roxa picada", "1 tomate picado", "Azeite de oliva", "Limão", "Sal", "Pimenta", "Cheiro-verde picado"],
+    "instructions": ["Misture o grão de bico cozido, o atum escorrido, a cebola roxa e o tomate picados.", "Tempere com azeite, limão, sal, pimenta e cheiro-verde.", "Sirva frio."],
+    "calories": 300,
+    "image": "https://example.com/images/salada-grao-bico-atum.jpg"
+  },
+  {
+    "name": "Creme de Abóbora com Frango Desfiado",
+    "ingredients": ["500g de abóbora picada", "1 cebola picada", "2 dentes de alho picados", "1 litro de água", "1 xícara de frango desfiado", "Azeite de oliva", "Sal", "Pimenta", "Cheiro-verde picado"],
+    "instructions": ["Refogue a cebola e o alho no azeite.", "Adicione a abóbora e a água, cozinhando até ficar macia.", "Bata a sopa no liquidificador até obter consistência homogênea.", "Adicione o frango desfiado, tempere e finalize com cheiro-verde."],
+    "calories": 250,
+    "image": "https://example.com/images/creme-abobora-frango.jpg"
+  },
+  {
+    "name": "Sopa de Feijão com Legumes",
+    "ingredients": ["2 xícaras de feijão cozido", "1 cebola picada", "2 dentes de alho picados", "1 cenoura picada", "1 abobrinha picada", "1 tomate picado", "Azeite de oliva", "Sal", "Pimenta", "Louro"],
+    "instructions": ["Refogue a cebola e o alho no azeite.", "Adicione a cenoura, abobrinha e tomate picados e refogue por alguns minutos.", "Acrescente o feijão cozido, louro e água suficiente para cobrir.", "Cozinhe em fogo baixo até os legumes estarem macios.", "Tempere com sal e pimenta."],
+    "calories": 280,
+    "image": "https://example.com/images/sopa-feijao-legumes.jpg"
+  },
+  {
+    "name": "Pão Integral Caseiro Clássico",
+    "ingredients": ["500g de farinha de trigo integral", "320ml de água morna", "7g de fermento biológico seco (1 sachê)", "2 colheres de sopa de azeite de oliva", "1 colher de chá de sal", "2 colheres de sopa de sementes de chia ou linhaça (opcional)"],
+    "instructions": ["Misture a farinha integral, o fermento e o sal.", "Adicione a água morna e o azeite, misturando até formar massa homogênea.", "Sove por 10 minutos até a massa ficar macia.", "Coloque a massa em uma tigela untada, cubra com pano e deixe descansar 1 hora.", "Pré-aqueça o forno a 180°C.", "Modele o pão, coloque em assadeira untada e asse por 30-40 minutos."],
+    "calories": 150,
+    "image": "https://example.com/images/pao-integral-classico.jpg"
+  },
+  {
+    "name": "Pão Integral com Sementes",
+    "ingredients": ["Mesmos do pão integral clássico", "1/4 xícara de sementes de girassol, abóbora e linhaça"],
+    "instructions": ["Adicione as sementes à massa antes de sovar e siga o passo a passo do pão integral clássico."],
+    "calories": 160,
+    "image": "https://example.com/images/pao-integral-sementes.jpg"
+  },
+  {
+    "name": "Pizza Caseira Integral Clássica",
+    "ingredients": ["250g de farinha de trigo integral", "160ml de água morna", "3,5g de fermento biológico seco", "1 colher de sopa de azeite", "1/2 colher de chá de sal", "Molho de tomate caseiro a gosto", "150g de queijo mussarela light ralado", "Legumes picados a gosto", "Azeitonas picadas opcional", "Orégano a gosto"],
+    "instructions": ["Misture farinha, fermento e sal.", "Adicione água e azeite, sove até formar massa.", "Deixe descansar 30 minutos.", "Abra a massa e coloque em assadeira untada.", "Espalhe molho, queijo, legumes e azeitonas.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 300,
+    "image": "https://example.com/images/pizza-integral-classica.jpg"
+  },
+  {
+    "name": "Pizza Integral de Sardinha com Tomate",
+    "ingredients": ["Mesmos da pizza clássica", "1 lata de sardinha em óleo escorrido", "2 tomates picados"],
+    "instructions": ["Prepare a pizza como a clássica.", "Espalhe sardinha e tomates antes de finalizar com queijo."],
+    "calories": 330,
+    "image": "https://example.com/images/pizza-sardinha.jpg"
+  },
+  {
+    "name": "Sanduíche Integral com Homus e Frango",
+    "ingredients": ["2 fatias de pão integral", "2 colheres de sopa de pasta de grão de bico", "50g de peito de frango desfiado", "Alface", "Tomate em rodelas", "Cenoura ralada"],
+    "instructions": ["Passe a pasta de grão de bico nas fatias de pão.", "Adicione frango, alface, tomate e cenoura.", "Feche o sanduíche e sirva."],
+    "calories": 280,
+    "image": "https://example.com/images/sanduiche-homus-frango.jpg"
+  },
+  {
+    "name": "Sanduíche Integral com Pasta de Abacate e Ovo",
+    "ingredients": ["2 fatias de pão integral", "1/2 abacate amassado", "1 ovo cozido fatiado", "Sal e pimenta a gosto"],
+    "instructions": ["Amasse o abacate, tempere com sal e pimenta.", "Espalhe nas fatias de pão, adicione ovo fatiado e feche o sanduíche."],
+    "calories": 300,
+    "image": "https://example.com/images/sanduiche-abacate-ovo.jpg"
+  },
+  {
+    "name": "Bolo Integral de Banana com Aveia Clássico",
+    "ingredients": ["3 bananas maduras amassadas", "2 ovos", "1/2 xícara de óleo vegetal", "1/2 xícara de açúcar mascavo", "1 xícara de farinha de trigo integral", "1 xícara de aveia em flocos", "1 colher de sopa de fermento em pó", "Canela em pó a gosto"],
+    "instructions": ["Misture bananas, ovos, óleo e açúcar.", "Adicione farinha, aveia, fermento e canela, misturando bem.", "Despeje em forma untada e enfarinhada.", "Asse a 180°C por 35-40 minutos."],
+    "calories": 200,
+    "image": "https://example.com/images/bolo-banana-aveia.jpg"
+  },
+  {
+    "name": "Bolo Integral de Banana com Nozes e Canela",
+    "ingredients": ["Mesmos do bolo clássico", "1/2 xícara de nozes picadas", "1 colher de chá de canela em pó"],
+    "instructions": ["Adicione nozes e canela à massa do bolo clássico antes de assar."],
+    "calories": 230,
+    "image": "https://example.com/images/bolo-banana-nozes.jpg"
+  },
+  {
+    "name": "Salada com Macarrão Integral Clássica",
+    "ingredients": ["2 xícaras de macarrão integral cozido", "1 tomate picado", "1/2 pepino picado", "Azeitonas picadas", "Queijo branco em cubos", "Manjericão fresco picado", "Azeite de oliva", "Vinagre", "Sal e pimenta a gosto"],
+    "instructions": ["Cozinhe e escorra o macarrão.", "Misture todos os ingredientes em uma tigela grande.", "Tempere a gosto com azeite, vinagre, sal e pimenta."],
+    "calories": 350,
+    "image": "https://example.com/images/salada-macarrao.jpg"
+  },
+  {
+    "name": "Salada de Macarrão Integral com Atum e Legumes",
+    "ingredients": ["2 xícaras de macarrão integral cozido", "1 lata de atum em água escorrido", "1 xícara de legumes picados (tomate, pepino, cenoura)", "Azeite de oliva", "Limão", "Sal, pimenta e orégano"],
+    "instructions": ["Misture macarrão, atum e legumes em uma tigela.", "Tempere com azeite, limão, sal, pimenta e orégano.", "Sirva frio."],
+    "calories": 350,
+    "image": "https://example.com/images/salada-macarrao-atum.jpg"
+  },
+  {
+    "name": "Suco Verde Detox",
+    "ingredients": ["2 folhas de couve", "1 maçã verde", "1 pedaço pequeno de gengibre", "200ml de água"],
+    "instructions": ["Lave bem os ingredientes.", "Corte a maçã em pedaços e retire sementes.", "Bata tudo no liquidificador até homogeneizar.", "Coe opcionalmente e sirva."],
+    "calories": 80,
+    "image": "https://example.com/images/suco-verde.jpg"
+  },
+  {
+    "name": "Suco de Frutas Vermelhas Antioxidante",
+    "ingredients": ["1 xícara de morango", "1/2 xícara de amora", "1/2 xícara de framboesa", "200ml de água de coco"],
+    "instructions": ["Lave bem as frutas.", "Bata todas no liquidificador com água de coco até ficar homogêneo.", "Coe opcionalmente e sirva."],
+    "calories": 120,
+    "image": "https://example.com/images/suco-frutas-vermelhas.jpg"
+  },
+  {
+    "name": "Suco de Laranja com Cenoura e Beterraba",
+    "ingredients": ["2 laranjas", "1 cenoura pequena", "1/2 beterraba pequena", "200ml de água"],
+    "instructions": ["Descasque laranjas, cenoura e beterraba.", "Corte em pedaços e bata no liquidificador com água.", "Coe opcionalmente e sirva."],
+    "calories": 150,
+    "image": "https://example.com/images/suco-laranja-cenoura.jpg"
+  },
+  {
+    "name": "Suco de Abacaxi com Hortelã",
+    "ingredients": ["2 fatias de abacaxi", "10 folhas de hortelã", "200ml de água"],
+    "instructions": ["Descasque e corte o abacaxi.", "Lave as folhas de hortelã.", "Bata tudo no liquidificador com água até homogeneizar.", "Sirva gelado."],
+    "calories": 100,
+    "image": "https://example.com/images/suco-abacaxi-hortela.jpg"
+  },
+  {
+    "name": "Granola Caseira",
+    "ingredients": ["2 xícaras de aveia em flocos", "1 xícara de castanhas picadas", "1/2 xícara de sementes (chia, linhaça, girassol)", "1/4 xícara de óleo vegetal", "1/4 xícara de mel ou açúcar mascavo", "Canela em pó a gosto"],
+    "instructions": ["Misture todos os ingredientes em uma tigela.", "Espalhe em uma assadeira.", "Leve ao forno pré-aquecido a 180°C por 20-25 minutos, mexendo de vez em quando até dourar.", "Deixe esfriar e guarde em recipiente fechado."],
+    "calories": 200,
+    "image": "https://example.com/images/granola-caseira.jpg"
+  },
+  {
+    "name": "Pão Integral Caseiro Clássico",
+    "ingredients": ["500g de farinha de trigo integral", "320ml de água morna", "7g de fermento biológico seco", "2 colheres de sopa de azeite de oliva", "1 colher de chá de sal", "Opcional: 2 colheres de sopa de sementes de chia ou linhaça"],
+    "instructions": ["Misture farinha, fermento e sal.", "Adicione água e azeite, misturando até formar massa homogênea.", "Sove 10 minutos.", "Deixe descansar 1 hora até dobrar tamanho.", "Modele e asse a 180°C por 30-40 minutos."],
+    "calories": 150,
+    "image": "https://example.com/images/pao-integral-classico.jpg"
+  },
+  {
+    "name": "Pão Integral com Sementes",
+    "ingredients": ["Mesmos do pão integral clássico", "1/4 xícara de sementes de girassol, abóbora e linhaça"],
+    "instructions": ["Adicione as sementes à massa antes de sovar e siga o passo a passo do pão clássico."],
+    "calories": 160,
+    "image": "https://example.com/images/pao-integral-sementes.jpg"
+  },
+  {
+    "name": "Pizza Caseira Integral Clássica",
+    "ingredients": ["250g de farinha de trigo integral", "160ml de água morna", "3,5g de fermento biológico seco", "1 colher de sopa de azeite de oliva", "1/2 colher de chá de sal", "Molho de tomate caseiro", "150g de queijo mussarela light ralado", "Legumes picados a gosto", "Azeitonas picadas opcional", "Orégano a gosto"],
+    "instructions": ["Misture farinha, fermento e sal.", "Adicione água e azeite e sove por 5 minutos.", "Deixe descansar 30 minutos.", "Abra a massa, espalhe molho, queijo, legumes e azeitonas.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 300,
+    "image": "https://example.com/images/pizza-integral-classica.jpg"
+  },
+  {
+    "name": "Sanduíche Integral com Homus e Frango",
+    "ingredients": ["2 fatias de pão integral", "2 colheres de sopa de pasta de grão de bico", "50g de peito de frango desfiado", "Alface, tomate em rodelas, cenoura ralada"],
+    "instructions": ["Passe a pasta de grão de bico nas fatias de pão.", "Coloque o frango desfiado, alface, tomate e cenoura.", "Feche o sanduíche e sirva."],
+    "calories": 280,
+    "image": "https://example.com/images/sanduiche-homus-frango.jpg"
+  },
+  {
+    "name": "Sanduíche Integral com Pasta de Abacate e Ovo",
+    "ingredients": ["2 fatias de pão integral", "1/2 abacate amassado", "1 ovo cozido fatiado", "Sal e pimenta a gosto"],
+    "instructions": ["Amasse o abacate e tempere com sal e pimenta.", "Espalhe nas fatias de pão, adicione ovo fatiado e feche o sanduíche."],
+    "calories": 300,
+    "image": "https://example.com/images/sanduiche-abacate-ovo.jpg"
+  },
+  {
+    "name": "Pizza Integral de Sardinha com Tomate",
+    "ingredients": ["Massa da pizza integral clássica", "1 lata de sardinha em óleo escorrido", "2 tomates picados", "Queijo mussarela light ralado", "Orégano a gosto"],
+    "instructions": ["Prepare a massa como na pizza clássica.", "Espalhe o molho, adicione sardinha e tomates picados, finalize com queijo.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 330,
+    "image": "https://example.com/images/pizza-sardinha-tomate.jpg"
+  },
+  {
+    "name": "Pizza Integral de Atum com Milho",
+    "ingredients": ["Massa da pizza integral clássica", "1 lata de atum em água escorrido", "1 xícara de milho verde", "Queijo mussarela light ralado", "Orégano a gosto"],
+    "instructions": ["Prepare a massa como na pizza clássica.", "Espalhe o molho, adicione atum e milho, finalize com queijo.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 340,
+    "image": "https://example.com/images/pizza-atum-milho.jpg"
+  },
+  {
+    "name": "Pizza Integral de Brócolis com Queijo Branco",
+    "ingredients": ["Massa da pizza integral clássica", "1 xícara de brócolis cozido no vapor picado", "150g de queijo branco em cubos", "Queijo mussarela light ralado", "Orégano a gosto"],
+    "instructions": ["Prepare a massa como na pizza clássica.", "Espalhe o molho, adicione brócolis e queijo branco, finalize com mussarela.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 320,
+    "image": "https://example.com/images/pizza-brocolis-queijo.jpg"
+  },
+  {
+    "name": "Pizza Integral de Legumes",
+    "ingredients": ["Massa da pizza integral clássica", "1 xícara de legumes picados (abobrinha, tomate, cebola, pimentão, etc.)", "Queijo mussarela light ralado", "Orégano a gosto"],
+    "instructions": ["Prepare a massa como na pizza clássica.", "Espalhe o molho, adicione os legumes, finalize com queijo.", "Polvilhe orégano e asse a 200°C por 20-25 minutos."],
+    "calories": 310,
+    "image": "https://example.com/images/pizza-legumes.jpg"
+  },
+  {
+    "name": "Bolo Integral de Banana com Coco Ralado",
+    "ingredients": ["3 bananas maduras amassadas", "2 ovos", "1/2 xícara de óleo vegetal", "1/2 xícara de açúcar mascavo", "1 xícara de farinha de trigo integral", "1 xícara de aveia em flocos", "1/2 xícara de coco ralado", "1 colher de sopa de fermento em pó", "Canela a gosto"],
+    "instructions": ["Misture bananas, ovos, óleo e açúcar.", "Adicione farinha, aveia, fermento, canela e coco.", "Despeje em forma untada e asse a 180°C por 35-40 minutos."],
+    "calories": 240,
+    "image": "https://example.com/images/bolo-banana-coco.jpg"
+  },
+  {
+    "name": "Bolo Integral de Banana com Farinha de Arroz",
+    "ingredients": ["3 bananas maduras amassadas", "2 ovos", "1/2 xícara de óleo vegetal", "1/2 xícara de açúcar mascavo", "1 xícara de farinha de arroz", "1 xícara de aveia em flocos", "1 colher de sopa de fermento em pó", "Canela a gosto"],
+    "instructions": ["Misture bananas, ovos, óleo e açúcar.", "Adicione farinha de arroz, aveia, fermento e canela.", "Despeje em forma untada e asse a 180°C por 35-40 minutos."],
+    "calories": 210,
+    "image": "https://example.com/images/bolo-banana-arroz.jpg"
+  },
+  {
+    "name": "Suco Verde Detox",
+    "ingredients": ["2 folhas de couve", "1 maçã verde", "1 pedaço pequeno de gengibre", "200ml de água"],
+    "instructions": ["Lave bem todos os ingredientes.", "Corte a maçã em pedaços retirando sementes.", "Bata tudo no liquidificador até homogeneizar.", "Coe se desejar e sirva."],
+    "calories": 80,
+    "image": "https://example.com/images/suco-verde-detox.jpg"
+  },
+  {
+    "name": "Suco de Frutas Vermelhas Antioxidante",
+    "ingredients": ["1 xícara de morango", "1/2 xícara de amora", "1/2 xícara de framboesa", "200ml de água de coco"],
+    "instructions": ["Lave todas as frutas.", "Bata no liquidificador com água de coco até homogeneizar.", "Coe se desejar e sirva gelado."],
+    "calories": 120,
+    "image": "https://example.com/images/suco-frutas-vermelhas.jpg"
+  },
+  {
+    "name": "Suco de Laranja com Cenoura e Beterraba",
+    "ingredients": ["2 laranjas", "1 cenoura pequena", "1/2 beterraba pequena", "200ml de água"],
+    "instructions": ["Descasque e corte laranjas, cenoura e beterraba.", "Bata no liquidificador com água.", "Coe se desejar e sirva."],
+    "calories": 150,
+    "image": "https://example.com/images/suco-laranja-cenoura-beterraba.jpg"
+  },
+  {
+    "name": "Suco de Abacaxi com Hortelã",
+    "ingredients": ["2 fatias de abacaxi", "10 folhas de hortelã", "200ml de água"],
+    "instructions": ["Descasque e corte o abacaxi.", "Lave as folhas de hortelã.", "Bata tudo no liquidificador com água.", "Coe se desejar e sirva gelado."],
+    "calories": 100,
+    "image": "https://example.com/images/suco-abacaxi-hortela.jpg"
+  },
+  {
+    "name": "Suco de Melão com Gengibre",
+    "ingredients": ["2 fatias de melão", "1 pedaço pequeno de gengibre", "200ml de água"],
+    "instructions": ["Descasque e corte o melão.", "Descasque o gengibre.", "Bata no liquidificador com água.", "Coe se desejar e sirva gelado."],
+    "calories": 90,
+    "image": "https://example.com/images/suco-melao-gengibre.jpg"
+  }
+]
